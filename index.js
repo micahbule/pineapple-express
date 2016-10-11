@@ -5,8 +5,6 @@ var winston = require('winston');
 
 var app = require('./app/config')(express());
 
-winston.log(process.env);
-
 app.get('/', (req, res) => {
 	res.send('Hello World!');
 });
