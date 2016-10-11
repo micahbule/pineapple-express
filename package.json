@@ -1,0 +1,41 @@
+{
+  "name": "pineapple-express",
+  "version": "1.0.0",
+  "description": "An Express boilerplate for Cynder hippies.",
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint *.js app/**/*.js; exit 0;",
+    "start": "nodemon index.js",
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micahbule/pineapple-express.git"
+  },
+  "keywords": [
+    "expressjs",
+    "boilerplate"
+  ],
+  "author": "Micah Andrew Bule",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/micahbule/pineapple-express/issues"
+  },
+  "homepage": "https://github.com/micahbule/pineapple-express#readme",
+  "dependencies": {
+    "body-parser": "^1.15.2",
+    "compression": "^1.6.2",
+    "cookie-parser": "^1.4.3",
+    "csurf": "^1.9.0",
+    "dotenv": "^2.0.0",
+    "express": "^4.14.0",
+    "helmet": "^2.3.0",
+    "method-override": "^2.3.6",
+    "morgan": "^1.7.0",
+    "winston": "^2.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^3.7.1",
+    "nodemon": "^1.11.0"
+  }
+}
